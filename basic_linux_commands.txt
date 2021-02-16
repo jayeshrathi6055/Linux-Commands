@@ -1,0 +1,70 @@
+// Want to check Present Directory
+pwd
+
+// Want to change Directory
+cd home-----> It will point home Directory
+cd .. ------> Come to Previous Directory
+
+// Want to view contents in  a directory
+ls
+ls -R ------>showing contents in sub directory
+ls -a ------>Showing also hidden files
+ls -al------>Show with details
+
+// Want to Create a new file
+touch filename
+cat filename
+
+// Want to concatinate 2 files and make 1 file
+cat filename1 filename2 > filename3
+
+// Want to move file from 1 place to another place
+mv filename directory   (Eg - mv tut.txt dir/)
+
+// Want to make directory
+mkdir foldername
+
+// Want to delete directory and file
+rmdir folder_name
+rm file_name
+
+// Want to find file
+find . -name filename
+
+// Want to check word present in a file or not
+grep word filename
+
+// Want to check disk space usuage
+df ---->Show in kb
+df -m--->Show in mb
+
+// Want to check how much space a file or a directory takes
+du
+du -h
+
+// Want to see Starting lines of a file
+head filename
+head -n 2 filename
+
+// Want to see Last lines of a file
+head filename
+head -n 2 filename
+
+// Want to see the difference between 2 files
+diff filename1 filename2
+
+// Want to add data in a file
+echo Write your message here >> filename
+
+// Some Keyboards Commands
+Use the clear command to clean out the terminal if it is getting cluttered with too many past commands.
+
+Try the TAB button to autofill what you are typing. For example, if you need to type Documents, begin to type a command (let’s go with cd Docu, then hit the TAB key) and the terminal will fill in the rest, showing you cd Documents.
+
+Ctrl+C and Ctrl+Z are used to stop any command that is currently working. Ctrl+C will stop and terminate the command, while Ctrl+Z will simply pause the command.
+
+If you accidental freeze your terminal by using Ctrl+S, simply undo this with the unfreeze Ctrl+Q.
+
+Ctrl+A moves you to the beginning of the line while Ctrl+E moves you to the end.
+
+You can run multiple commands in one single command by using the “;” to separate them. For example Command1; Command2; Command3. Or use && if you only want the next command to run when the first one is successful
